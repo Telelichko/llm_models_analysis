@@ -1,0 +1,3 @@
+{"id": 1, "prompt": "Write an official letter to a client about a 2-week delivery delay. Use a professional tone.", "reference_answer": "Dear Ivan Ivanovich...", "category": "email_writing"}
+{"id": 2, "prompt": "Summarize the following text in 3 sentences: ...", "reference_answer": "The text discusses...", "category": "summarization"}
+{"id": 3, "prompt": "Write a SQL query to select all users who made a purchase in the last month.", "reference_answer": "SELECT * FROM users WHERE...", "category": "sql_generation"}

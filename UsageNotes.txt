@@ -1,0 +1,15 @@
+Usage Notes:
+For Ollama models (LLaMA, Mistral):
+- Install Ollama from https://ollama.com/
+- Pull the models: ollama pull llama3, ollama pull mistral
+- Start the Ollama service
+
+For Hugging Face models:
+- Some models may require a Hugging Face Hub token for gated models
+- Set the token in your .env file: HUGGINGFACE_HUB_TOKEN=your_token_here
+- Models will be downloaded automatically on first use
+
+Hardware requirements:
+- Most of these models require significant GPU memory
+- Consider using smaller variants if you have limited resources
+- Some models support quantization for reduced memory usage
